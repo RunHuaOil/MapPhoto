@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapPhotoGE">
+
+    <item
+        android:id= "@+id/menu_item_gallery"
+        android:icon= "@drawable/gallery"
+        android:orderInCategory= "100"
+        app:showAsAction= "always|withText"
+        android:title= "相册" />
+    <item
+        android:id= "@+id/menu_item_add"
+        android:orderInCategory= "101"
+        app:showAsAction= "never"
+        android:title= "新增条目" />
+    <item
+        android:id= "@+id/menu_item_remove"
+        android:orderInCategory= "102"
+        app:showAsAction= "never"
+        android:title="移除条目" />
+    <item
+        android:id= "@+id/menu_item_edit"
+        android:orderInCategory= "103"
+        app:showAsAction= "never"
+        android:title="修改名称" />
+    <item
+        android:id= "@+id/menu_item_exit"
+        android:orderInCategory= "103"
+        app:showAsAction= "never"
+        android:title="退出程序" />
+
+</menu>
